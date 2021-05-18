@@ -1,0 +1,29 @@
+Script started on 2021-05-18 14:05:30+0000
+]0;student@bchd: ~[01;32mstudent@bchd[00m:[01;34m~[00m$ bo[K[Kecho [K[K[K[K[Kls
+file  [0m[01;34mmycode[0m  [01;34mstatic[0m
+]0;student@bchd: ~[01;32mstudent@bchd[00m:[01;34m~[00m$ 
+]0;student@bchd: ~[01;32mstudent@bchd[00m:[01;34m~[00m$ ls -al
+total 92
+drwxr-xr-x 9 student student  4096 May 18 14:00 [0m[01;34m.[0m
+drwxr-xr-x 4 root    root     4096 May 17 12:31 [01;34m..[0m
+drwx------ 3 student student  4096 May 17 12:32 [01;34m.ansible[0m
+-rw------- 1 student student  2401 May 18 14:03 .bash_history
+-rw-r--r-- 1 student student   220 Apr  4  2018 .bash_logout
+-rw-r--r-- 1 student student  4001 May 17 12:32 .bashrc
+drwx------ 3 student student  4096 May 17 12:32 [01;34m.cache[0m
+drwxr-xr-x 4 student student  4096 May 17 12:33 [01;34m.config[0m
+-rw-r--r-- 1 student student    63 May 17 15:46 .gitconfig
+drwx------ 4 student student  4096 May 17 12:32 [01;34m.local[0m
+-rw-r--r-- 1 student student   807 Apr  4  2018 .profile
+-rw------- 1 student student   419 May 17 16:44 .python_history
+drwx------ 2 student student  4096 May 17 12:31 [01;34m.ssh[0m
+-rw-r--r-- 1 student root       42 May 17 12:31 .tmux.conf
+-rw------- 1 student student 17862 May 18 13:52 .viminfo
+-rw-r--r-- 1 student student    30 May 17 14:50 .vimrc
+-rw-r--r-- 1 student student    72 May 17 14:50 file
+drwxr-xr-x 8 student student  4096 May 18 14:05 [01;34mmycode[0m
+drwxr-xr-x 2 student root     4096 May 17 12:32 [01;34mstatic[0m
+]0;student@bchd: ~[01;32mstudent@bchd[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-05-18 14:05:40+0000
