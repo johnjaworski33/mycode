@@ -18,8 +18,11 @@ configlist = configfile.readlines()
 print(configlist)
 
 ## Iterate through configlist
+# take out the extra line feed with end
+# or strip all with space..good for use with list of commands
 for x in configlist:
-    print(x)
+#    print(x , end = "")
+    print(x.strip())
 
 ## Always close your file
 configfile.close()
