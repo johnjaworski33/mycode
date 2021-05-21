@@ -1,25 +1,37 @@
-from cheatdice import Player
-from cheatdice import Cheat_Swapper
-from cheatdice import Cheat_Loaded_Dice
+ #!/usr/bin/python3
 
-cheater1 = Cheat_Swapper()
-cheater2 = Cheat_Loaded_Dice()
+ # imports from cheadice.py (this is in the local directory)
+ from cheatdice import Player
+ from cheatdice import Cheat_Swapper
+ from cheatdice import Cheat_Loaded_Dice
 
-cheater1.roll()
-cheater2.roll()
+ def main():
 
-cheater1.cheat()
-cheater2.cheat()
+     # create two cheater objects
+     cheater1 = Cheat_Swapper() # ability is to change 3rd dice roll to 6
+     cheater2 = Cheat_Loaded_Dice() # increase all rolls by +1 provided they are < 6 
 
-print("Cheater 1 rolled" + str(cheater1.get_dice()))
-print("Cheater 2 rolled" + str(cheater2.get_dice()))
+     # both players take turns
+     cheater1.roll() 
+     cheater2.roll()
 
-if sum(cheater1.get_dice()) == sum(cheater2.get_dice()):
-  print("Draw!")
+     # both players use their cheat methods
+     cheater1.cheat()
+     cheater2.cheat()
 
-elif sum(cheater1.get_dice()) > sum(cheater2.get_dice()):
-  print("Cheater 1 wins!")
+     print(f"Cheater 1 rolled {cheater1.get_dice()}")
+     print(f"Cheater 2 rolled {cheater2.get_dice()}")
 
-else:
-  print("Cheater 2 wins!")
+     if sum(cheater1.get_dice()) == sum(cheater2.get_dice()):
+         print("Draw!")
+
+     elif sum(cheater1.get_dice()) > sum(cheater2.get_dice()):
+         print("Cheater 1 wins!")
+
+     else:
+         print("Cheater 2 wins!")
+
+ if __name__ == "__main__":
+     main()
+
 
